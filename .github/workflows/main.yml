@@ -25,5 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - run: pwd
+      - run: ls .
+      - run: ls ..
       # - run: gcc ../../fib.c -o ../../fib
       # - run: ../../fib
