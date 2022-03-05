@@ -27,4 +27,4 @@ jobs:
       - run: pwd
       - run: ls .
       - run: gcc fib.c -o fib
-      - run: fib
+      - run: ./fib
